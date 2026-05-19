@@ -80,27 +80,39 @@ Performed exploratory analysis to identify:
 
 ### 4. Data Visualization
 
-The following visualizations were developed to analyze relationships between restaurants, food products, and customer engagement metrics on the BeFood platform.
+The following visualizations were developed to analyze relationships between restaurants, food products, and customer engagement metrics on the BeFood platform.  
 
 These analyses help identify interaction patterns between user behavior and product performance, while also revealing correlations among key business indicators.
 
-* Restaurant & Product Relationship Analysis
+---
+
+#### Restaurant & Product Relationship Analysis
 
 Visualized the relationship between restaurants and food products to identify product distribution and restaurant-level performance patterns.
 
-<img width="653" height="619" alt="Screenshot 2026-05-19 154024" src="https://github.com/user-attachments/assets/f2232645-93d2-401b-b1ee-2ac2b0cece18" />
+<p align="center">
+  <img width="653" height="619" alt="Restaurant Analysis" src="https://github.com/user-attachments/assets/f2232645-93d2-401b-b1ee-2ac2b0cece18" />
+</p>
 
-*Customer Engagement Analysis
+---
+
+#### Customer Engagement Analysis
 
 Analyzed the relationship between likes, dislikes, and purchase volume to evaluate how customer interactions influence product popularity and sales performance.
-<img width="611" height="586" alt="Screenshot 2026-05-19 154052" src="https://github.com/user-attachments/assets/17f5fc64-71ee-428e-ad48-27d9b78dde61" />
 
+<p align="center">
+  <img width="611" height="586" alt="Customer Engagement Analysis" src="https://github.com/user-attachments/assets/17f5fc64-71ee-428e-ad48-27d9b78dde61" />
+</p>
 
-*Correlation Heatmap
+---
+
+#### Correlation Heatmap
 
 Built a correlation matrix to explore relationships among numerical variables such as ratings, likes, dislikes, comments, and sales-related metrics.
-<img width="607" height="521" alt="Screenshot 2026-05-19 154119" src="https://github.com/user-attachments/assets/28ffa7a7-2383-4522-b692-9f97585775ac" />
 
+<p align="center">
+  <img width="607" height="521" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/28ffa7a7-2383-4522-b692-9f97585775ac" />
+</p>
 
 ### 5. Machine Learning & Prediction
 
