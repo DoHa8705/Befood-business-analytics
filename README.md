@@ -114,22 +114,7 @@ Built a correlation matrix to explore relationships among numerical variables su
   <img width="607" height="521" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/28ffa7a7-2383-4522-b692-9f97585775ac" />
 </p>
 
-### 5. Machine Learning & Prediction
-
-Implemented and compared multiple regression models:
-
-* Linear Regression
-* Gradient Boosting Regressor
-* XGBoost Regressor
-
-Evaluation metrics:
-
-* RMSE
-* MAE
-* R² Score
-
----
-## 🤖 Machine Learning & Model Evaluation
+## 5 Machine Learning & Model Evaluation
 
 To evaluate prediction performance on food purchase behavior, multiple regression models were implemented and compared using engineered business-related features derived from customer engagement and restaurant information.
 
@@ -177,29 +162,6 @@ Performance was evaluated using the R² Score metric on the test dataset.
 
 ---
 
-## 📈 Visualization Preview
-
-### Top-Selling Food Categories
-
-![Top Categories](images/top_categories.png)
-
----
-
-### District-Based Analysis
-
-![District Analysis](images/district_analysis.png)
-
----
-
-### Correlation Heatmap
-
-![Heatmap](images/correlation_heatmap.png)
-
----
-
-### Regression Analysis
-
-![Regression](images/regression_analysis.png)
 
 ---
 
@@ -214,11 +176,9 @@ befood-business-analytics/
 │
 ├── notebooks/
 │   ├── 01_data_collection.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda_analysis.ipynb
-│   └── 04_sales_prediction.ipynb
+│   ├── 02_data_cleaning + eda_analysis.ipynb.ipynb 
+│   └── 03_sales_prediction.ipynb
 │
-├── images/
 ├── reports/
 ├── README.md
 ├── requirements.txt
