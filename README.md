@@ -154,14 +154,6 @@ Performance was evaluated using the R² Score metric on the test dataset.
 - Ensemble models such as Gradient Boosting and XGBoost achieved better prediction performance compared to baseline Linear Regression models
 ---
 
-### Regression Model Evaluation
-
-<p align="center">
-  <img width="700" alt="Regression Analysis" src="YOUR_IMAGE_LINK_HERE">
-</p>
-
----
-
 
 ---
 
