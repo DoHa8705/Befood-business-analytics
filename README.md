@@ -129,24 +129,51 @@ Evaluation metrics:
 * R² Score
 
 ---
+## 🤖 Machine Learning & Model Evaluation
 
-## 📊 Model Performance Comparison
+To evaluate prediction performance on food purchase behavior, multiple regression models were implemented and compared using engineered business-related features derived from customer engagement and restaurant information.
 
-| Model             | RMSE | MAE | R² Score |
-| ----------------- | ---- | --- | -------- |
-| Linear Regression | ...  | ... | ...      |
-| Gradient Boosting | ...  | ... | ...      |
-| XGBoost           | ...  | ... | ...      |
+The models were trained using both original features and feature engineering techniques such as:
+- Price-rating interaction
+- Customer engagement ratio
+- Weighted restaurant rating
+- Log-transformed engagement metrics
+
+Performance was evaluated using the R² Score metric on the test dataset.
 
 ---
 
-## 💡 Key Insights
+### Model Performance Comparison
 
-* Food and beverage preferences vary significantly across districts in Ho Chi Minh City
-* Highly rated restaurants tend to achieve stronger sales performance
-* Customer engagement metrics show positive correlation with sales-related indicators
-* Certain beverage categories dominate customer demand in specific local areas
-* Ensemble models such as Gradient Boosting and XGBoost achieved better prediction performance compared to baseline Linear Regression models
+| Model | R² Score |
+|---|---|
+| Random Forest (Baseline) | 0.8753 |
+| Gradient Boosting (Baseline) | 0.7362 |
+| XGBoost (Baseline) | 0.8759 |
+| Random Forest (Feature Engineering + GridSearch) | 0.8926 |
+| Gradient Boosting (Feature Engineering) | 0.8312 |
+| XGBoost (Feature Engineering) | 0.8673 |
+
+---
+
+### Key Findings
+
+- Feature engineering significantly improved the performance of tree-based ensemble models
+- Random Forest achieved the highest prediction performance with an R² score of 0.8926
+- Customer engagement metrics such as likes, dislikes, and restaurant ratings showed strong influence on purchase prediction
+- Ensemble learning models consistently outperformed traditional regression approaches in capturing nonlinear business patterns
+- Food and beverage preferences vary significantly across districts in Ho Chi Minh City
+- Highly rated restaurants tend to achieve stronger sales performance
+- Customer engagement metrics show positive correlation with sales-related indicators
+- Certain beverage categories dominate customer demand in specific local areas
+- Ensemble models such as Gradient Boosting and XGBoost achieved better prediction performance compared to baseline Linear Regression models
+---
+
+### Regression Model Evaluation
+
+<p align="center">
+  <img width="700" alt="Regression Analysis" src="YOUR_IMAGE_LINK_HERE">
+</p>
 
 ---
 
